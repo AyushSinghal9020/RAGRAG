@@ -56,7 +56,7 @@ def process_input(question , text = open('sample.txt').read()):
     return answer
 
 
-files = st.file_uploader('Uplaod your FIles' , accept_multiple_files = True , type = ['txt' , 'pdf' , 'docx' , 'pptx']) 
+files = st.file_uploader('Uplaod your FIles' , accept_multiple_files = True , type = ['txt' , 'pdf' , 'docx' , 'pptx' , 'doc' , 'ppt']) 
 
 if files : 
 
